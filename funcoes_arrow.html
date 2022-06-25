@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <script type="text/babel">
+
+        // let quadrado = function(x = 5) {
+        //     return x * x
+        // }
+
+        // let quadrado = (x) => {
+        //     return x * x
+        // }
+
+        // let quadrado = x => {
+        //     return x * x
+        // }
+
+    //  let quadrado = x => x * x //return implícito
+
+    //  document.write(quadrado(9) )
+
+    // let parOuImpar = function(numero) {
+    //     if(numero % 2 === 0) {
+    //         return 'par'
+    //     } else {
+    //         return 'Ímpar'
+    //     }
+    // }
+
+    // document.write(parOuImpar(4))
+
+    let parOuImpar = numero => {
+        if(numero % 2 === 0) {
+            return 'par'
+        } else {
+            return 'Ímpar'
+        }
+    }
+
+    document.write(parOuImpar(7))
+    </script>
+    
+</head>
+<body>
+    <div id="output"></div>
+</body>
+</html>
